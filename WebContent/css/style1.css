@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+#loginlabel{
+	font-family:'didact_gothicregular';
+	font-size:16px;
+	color:#f41465;
+}
+#loginbox{
+	
+pedding-left:300px;
+width:300px;
+length:50px;
+
+}
+
+input[type="text;password"] {
+    width: 200px;
+}
+
+table

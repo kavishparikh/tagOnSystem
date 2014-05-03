@@ -1,0 +1,802 @@
+2013-12-03 13:09:44,854 INFO  com.mytacks.group10.tagatTack.dao.UserDAO  - Updated. 
+ 2013-12-03 13:12:35,931 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  - Setting default value: false 
+ 2013-12-03 13:12:35,931 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  - Converting 'Boolean' value 'false' to type 'Boolean' 
+ 2013-12-03 13:12:35,931 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  -     No conversion required, value is already a Boolean 
+ 2013-12-03 13:12:35,937 DEBUG org.apache.commons.beanutils.converters.ByteConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,937 DEBUG org.apache.commons.beanutils.converters.ByteConverter  - Converting 'Integer' value '0' to type 'Byte' 
+ 2013-12-03 13:12:35,937 DEBUG org.apache.commons.beanutils.converters.ByteConverter  -     Converted to Byte value '0' 
+ 2013-12-03 13:12:35,939 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  - Setting default value:   
+ 2013-12-03 13:12:35,939 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  - Converting 'Character' value ' ' to type 'Character' 
+ 2013-12-03 13:12:35,939 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  -     No conversion required, value is already a Character 
+ 2013-12-03 13:12:35,940 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,940 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  - Converting 'Integer' value '0' to type 'Double' 
+ 2013-12-03 13:12:35,940 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  -     Converted to Double value '0.0' 
+ 2013-12-03 13:12:35,941 DEBUG org.apache.commons.beanutils.converters.FloatConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,941 DEBUG org.apache.commons.beanutils.converters.FloatConverter  - Converting 'Integer' value '0' to type 'Float' 
+ 2013-12-03 13:12:35,941 DEBUG org.apache.commons.beanutils.converters.FloatConverter  -     Converted to Float value '0.0' 
+ 2013-12-03 13:12:35,942 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,942 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  - Converting 'Integer' value '0' to type 'Integer' 
+ 2013-12-03 13:12:35,942 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  -     No conversion required, value is already a Integer 
+ 2013-12-03 13:12:35,943 DEBUG org.apache.commons.beanutils.converters.LongConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,943 DEBUG org.apache.commons.beanutils.converters.LongConverter  - Converting 'Integer' value '0' to type 'Long' 
+ 2013-12-03 13:12:35,943 DEBUG org.apache.commons.beanutils.converters.LongConverter  -     Converted to Long value '0' 
+ 2013-12-03 13:12:35,944 DEBUG org.apache.commons.beanutils.converters.ShortConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,944 DEBUG org.apache.commons.beanutils.converters.ShortConverter  - Converting 'Integer' value '0' to type 'Short' 
+ 2013-12-03 13:12:35,945 DEBUG org.apache.commons.beanutils.converters.ShortConverter  -     Converted to Short value '0' 
+ 2013-12-03 13:12:35,946 DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter  - Setting default value: 0.0 
+ 2013-12-03 13:12:35,946 DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter  - Converting 'BigDecimal' value '0.0' to type 'BigDecimal' 
+ 2013-12-03 13:12:35,946 DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter  -     No conversion required, value is already a BigDecimal 
+ 2013-12-03 13:12:35,947 DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,947 DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter  - Converting 'BigInteger' value '0' to type 'BigInteger' 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter  -     No conversion required, value is already a BigInteger 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  - Setting default value: false 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  - Converting 'Boolean' value 'false' to type 'Boolean' 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  -     No conversion required, value is already a Boolean 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.ByteConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.ByteConverter  - Converting 'Integer' value '0' to type 'Byte' 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.ByteConverter  -     Converted to Byte value '0' 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  - Setting default value:   
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  - Converting 'Character' value ' ' to type 'Character' 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  -     No conversion required, value is already a Character 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  - Converting 'Integer' value '0' to type 'Double' 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  -     Converted to Double value '0.0' 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.FloatConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.FloatConverter  - Converting 'Integer' value '0' to type 'Float' 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.FloatConverter  -     Converted to Float value '0.0' 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,948 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  - Converting 'Integer' value '0' to type 'Integer' 
+ 2013-12-03 13:12:35,949 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  -     No conversion required, value is already a Integer 
+ 2013-12-03 13:12:35,949 DEBUG org.apache.commons.beanutils.converters.LongConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,949 DEBUG org.apache.commons.beanutils.converters.LongConverter  - Converting 'Integer' value '0' to type 'Long' 
+ 2013-12-03 13:12:35,949 DEBUG org.apache.commons.beanutils.converters.LongConverter  -     Converted to Long value '0' 
+ 2013-12-03 13:12:35,949 DEBUG org.apache.commons.beanutils.converters.ShortConverter  - Setting default value: 0 
+ 2013-12-03 13:12:35,949 DEBUG org.apache.commons.beanutils.converters.ShortConverter  - Converting 'Integer' value '0' to type 'Short' 
+ 2013-12-03 13:12:35,949 DEBUG org.apache.commons.beanutils.converters.ShortConverter  -     Converted to Short value '0' 
+ 2013-12-03 13:12:35,950 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Setting default value:  
+ 2013-12-03 13:12:35,950 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value '' to type 'String' 
+ 2013-12-03 13:12:35,962 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Z@1446661 
+ 2013-12-03 13:12:35,962 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'boolean[]' value '[Z@1446661' to type 'boolean[]' 
+ 2013-12-03 13:12:35,962 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a boolean[] 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [B@19d7949 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'byte[]' value '[B@19d7949' to type 'byte[]' 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a byte[] 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [C@185e3f2 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'char[]' value '[C@185e3f2' to type 'char[]' 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a char[] 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [D@1384051 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'double[]' value '[D@1384051' to type 'double[]' 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a double[] 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [F@6bbce 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'float[]' value '[F@6bbce' to type 'float[]' 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a float[] 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [I@1408ca 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'int[]' value '[I@1408ca' to type 'int[]' 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a int[] 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [J@14d1d68 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'long[]' value '[J@14d1d68' to type 'long[]' 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a long[] 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [S@1c5a9f9 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'short[]' value '[S@1c5a9f9' to type 'short[]' 
+ 2013-12-03 13:12:35,963 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a short[] 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.math.BigDecimal;@1a50af 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@1a50af' to type 'BigDecimal[]' 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a BigDecimal[] 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.math.BigInteger;@1ab66fa 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@1ab66fa' to type 'BigInteger[]' 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a BigInteger[] 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Boolean;@1e4670d 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@1e4670d' to type 'Boolean[]' 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Boolean[] 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Byte;@1e663d2 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Byte[]' value '[Ljava.lang.Byte;@1e663d2' to type 'Byte[]' 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Byte[] 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Character;@24f5ad 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Character[]' value '[Ljava.lang.Character;@24f5ad' to type 'Character[]' 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Character[] 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Double;@460a9 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Double[]' value '[Ljava.lang.Double;@460a9' to type 'Double[]' 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Double[] 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Float;@1beaad9 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Float[]' value '[Ljava.lang.Float;@1beaad9' to type 'Float[]' 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Float[] 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Integer;@13fdeb0 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Integer[]' value '[Ljava.lang.Integer;@13fdeb0' to type 'Integer[]' 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Integer[] 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Long;@de96e1 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Long[]' value '[Ljava.lang.Long;@de96e1' to type 'Long[]' 
+ 2013-12-03 13:12:35,964 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Long[] 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Short;@1ed7e37 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Short[]' value '[Ljava.lang.Short;@1ed7e37' to type 'Short[]' 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Short[] 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.String;@1ede357 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'String[]' value '[Ljava.lang.String;@1ede357' to type 'String[]' 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a String[] 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Class;@e890d3 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Class[]' value '[Ljava.lang.Class;@e890d3' to type 'Class[]' 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Class[] 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.util.Date;@19bb5d7 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Date[]' value '[Ljava.util.Date;@19bb5d7' to type 'Date[]' 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Date[] 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.util.Calendar;@18ff53f 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Calendar[]' value '[Ljava.util.Calendar;@18ff53f' to type 'Calendar[]' 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Calendar[] 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.io.File;@1f38edb 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'java.io.File[]' value '[Ljava.io.File;@1f38edb' to type 'java.io.File[]' 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a java.io.File[] 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Date;@af011 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@af011' to type 'java.sql.Date[]' 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Date[] 
+ 2013-12-03 13:12:35,965 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Time;@430cdb 
+ 2013-12-03 13:12:35,966 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@430cdb' to type 'java.sql.Time[]' 
+ 2013-12-03 13:12:35,966 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Time[] 
+ 2013-12-03 13:12:35,966 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Timestamp;@1d287cc 
+ 2013-12-03 13:12:35,966 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@1d287cc' to type 'java.sql.Timestamp[]' 
+ 2013-12-03 13:12:35,966 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Timestamp[] 
+ 2013-12-03 13:12:35,966 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.net.URL;@1e2cae3 
+ 2013-12-03 13:12:35,966 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'java.net.URL[]' value '[Ljava.net.URL;@1e2cae3' to type 'java.net.URL[]' 
+ 2013-12-03 13:12:35,966 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a java.net.URL[] 
+ 2013-12-03 13:12:35,981 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.BoardBean@727a27, {categoryName=FirstCategory, action=addBoardDetails, boardName=FINALTIMEBOARD, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@1b1b678}) 
+ 2013-12-03 13:12:35,981 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@727a27, categoryName, FirstCategory) 
+ 2013-12-03 13:12:35,981 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@727a27 
+ 2013-12-03 13:12:35,981 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 13:12:35,986 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'FirstCategory' to class 'java.lang.String' 
+ 2013-12-03 13:12:35,987 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:12:35,987 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'FirstCategory' to type 'String' 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setCategoryName(java.lang.String) with value FirstCategory (class java.lang.String) 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@727a27, action, addBoardDetails) 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@727a27 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addBoardDetails' to type 'String' 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setAction(java.lang.String) with value addBoardDetails (class java.lang.String) 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@727a27, boardName, FINALTIMEBOARD) 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@727a27 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'FINALTIMEBOARD' to class 'java.lang.String' 
+ 2013-12-03 13:12:35,990 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:12:35,991 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'FINALTIMEBOARD' to type 'String' 
+ 2013-12-03 13:12:35,991 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setBoardName(java.lang.String) with value FINALTIMEBOARD (class java.lang.String) 
+ 2013-12-03 13:12:35,991 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@727a27, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@1b1b678) 
+ 2013-12-03 13:12:35,991 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@727a27 
+ 2013-12-03 13:12:35,991 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 13:12:35,991 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setBoardImage(com.mytacks.group10.tagatTack.model.FileDetails) with value com.mytacks.group10.tagatTack.model.FileDetails@1b1b678 (class com.mytacks.group10.tagatTack.model.FileDetails) 
+ 2013-12-03 13:12:35,991 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.TackBean@10027f5, {categoryName=FirstCategory, action=addBoardDetails, boardName=FINALTIMEBOARD, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@1b1b678}) 
+ 2013-12-03 13:12:35,991 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@10027f5, categoryName, FirstCategory) 
+ 2013-12-03 13:12:35,991 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@10027f5 
+ 2013-12-03 13:12:35,991 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 13:12:35,997 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getCategoryName on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 13:12:35,999 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:12:35,999 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isCategoryName on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 13:12:35,999 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:12:35,999 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@10027f5, action, addBoardDetails) 
+ 2013-12-03 13:12:35,999 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@10027f5 
+ 2013-12-03 13:12:35,999 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 13:12:35,999 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 13:12:35,999 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:12:35,999 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addBoardDetails' to type 'String' 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setAction(java.lang.String) with value addBoardDetails (class java.lang.String) 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@10027f5, boardName, FINALTIMEBOARD) 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@10027f5 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'FINALTIMEBOARD' to class 'java.lang.String' 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'FINALTIMEBOARD' to type 'String' 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setBoardName(java.lang.String) with value FINALTIMEBOARD (class java.lang.String) 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@10027f5, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@1b1b678) 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@10027f5 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getBoardImage on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isBoardImage on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@80d720, {categoryName=FirstCategory, action=addBoardDetails, boardName=FINALTIMEBOARD, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@1b1b678}) 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@80d720, categoryName, FirstCategory) 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@80d720 
+ 2013-12-03 13:12:36,000 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'FirstCategory' to class 'java.lang.String' 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'FirstCategory' to type 'String' 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setCategoryName(java.lang.String) with value FirstCategory (class java.lang.String) 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@80d720, action, addBoardDetails) 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@80d720 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addBoardDetails' to type 'String' 
+ 2013-12-03 13:12:36,004 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setAction(java.lang.String) with value addBoardDetails (class java.lang.String) 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@80d720, boardName, FINALTIMEBOARD) 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@80d720 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'FINALTIMEBOARD' to class 'java.lang.String' 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'FINALTIMEBOARD' to type 'String' 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setBoardName(java.lang.String) with value FINALTIMEBOARD (class java.lang.String) 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@80d720, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@1b1b678) 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@80d720 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setBoardImage(com.mytacks.group10.tagatTack.model.FileDetails) with value com.mytacks.group10.tagatTack.model.FileDetails@1b1b678 (class com.mytacks.group10.tagatTack.model.FileDetails) 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.UpdateTackBean@100a96f, {categoryName=FirstCategory, action=addBoardDetails, boardName=FINALTIMEBOARD, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@1b1b678}) 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@100a96f, categoryName, FirstCategory) 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@100a96f 
+ 2013-12-03 13:12:36,005 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getCategoryName on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isCategoryName on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@100a96f, action, addBoardDetails) 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@100a96f 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addBoardDetails' to type 'String' 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setAction(java.lang.String) with value addBoardDetails (class java.lang.String) 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@100a96f, boardName, FINALTIMEBOARD) 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@100a96f 
+ 2013-12-03 13:12:36,009 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'FINALTIMEBOARD' to class 'java.lang.String' 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'FINALTIMEBOARD' to type 'String' 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setBoardName(java.lang.String) with value FINALTIMEBOARD (class java.lang.String) 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@100a96f, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@1b1b678) 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@100a96f 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getBoardImage on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isBoardImage on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 13:12:36,010 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,306 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.BoardBean@1226733, {tackImage=com.mytacks.group10.tagatTack.model.FileDetails@1a572fc, action=addTackDetails, tackName=NEWFINALTACK, tackURL=https://www.google.com, boardName=ParthSBoard}) 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@1226733, tackImage, com.mytacks.group10.tagatTack.model.FileDetails@1a572fc) 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@1226733 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackImage 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getTackImage on class com.mytacks.group10.tagatTack.bean.BoardBean 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isTackImage on class com.mytacks.group10.tagatTack.bean.BoardBean 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@1226733, action, addTackDetails) 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@1226733 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addTackDetails' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addTackDetails' to type 'String' 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setAction(java.lang.String) with value addTackDetails (class java.lang.String) 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@1226733, tackName, NEWFINALTACK) 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@1226733 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackName 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getTackName on class com.mytacks.group10.tagatTack.bean.BoardBean 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isTackName on class com.mytacks.group10.tagatTack.bean.BoardBean 
+ 2013-12-03 13:13:16,307 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@1226733, tackURL, https://www.google.com) 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@1226733 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackURL 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getTackURL on class com.mytacks.group10.tagatTack.bean.BoardBean 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isTackURL on class com.mytacks.group10.tagatTack.bean.BoardBean 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@1226733, boardName, ParthSBoard) 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@1226733 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'ParthSBoard' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'ParthSBoard' to type 'String' 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setBoardName(java.lang.String) with value ParthSBoard (class java.lang.String) 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.TackBean@4e732e, {tackImage=com.mytacks.group10.tagatTack.model.FileDetails@1a572fc, action=addTackDetails, tackName=NEWFINALTACK, tackURL=https://www.google.com, boardName=ParthSBoard}) 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@4e732e, tackImage, com.mytacks.group10.tagatTack.model.FileDetails@1a572fc) 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@4e732e 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackImage 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setTackImage(com.mytacks.group10.tagatTack.model.FileDetails) with value com.mytacks.group10.tagatTack.model.FileDetails@1a572fc (class com.mytacks.group10.tagatTack.model.FileDetails) 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@4e732e, action, addTackDetails) 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@4e732e 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addTackDetails' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addTackDetails' to type 'String' 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setAction(java.lang.String) with value addTackDetails (class java.lang.String) 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@4e732e, tackName, NEWFINALTACK) 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@4e732e 
+ 2013-12-03 13:13:16,308 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackName 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'NEWFINALTACK' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'NEWFINALTACK' to type 'String' 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setTackName(java.lang.String) with value NEWFINALTACK (class java.lang.String) 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@4e732e, tackURL, https://www.google.com) 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@4e732e 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackURL 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'https://www.google.com' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'https://www.google.com' to type 'String' 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setTackURL(java.lang.String) with value https://www.google.com (class java.lang.String) 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@4e732e, boardName, ParthSBoard) 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@4e732e 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'ParthSBoard' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'ParthSBoard' to type 'String' 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setBoardName(java.lang.String) with value ParthSBoard (class java.lang.String) 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f, {tackImage=com.mytacks.group10.tagatTack.model.FileDetails@1a572fc, action=addTackDetails, tackName=NEWFINALTACK, tackURL=https://www.google.com, boardName=ParthSBoard}) 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f, tackImage, com.mytacks.group10.tagatTack.model.FileDetails@1a572fc) 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackImage 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getTackImage on class com.mytacks.group10.tagatTack.bean.UpdateBoardBean 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isTackImage on class com.mytacks.group10.tagatTack.bean.UpdateBoardBean 
+ 2013-12-03 13:13:16,309 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f, action, addTackDetails) 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addTackDetails' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addTackDetails' to type 'String' 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setAction(java.lang.String) with value addTackDetails (class java.lang.String) 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f, tackName, NEWFINALTACK) 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackName 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getTackName on class com.mytacks.group10.tagatTack.bean.UpdateBoardBean 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isTackName on class com.mytacks.group10.tagatTack.bean.UpdateBoardBean 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f, tackURL, https://www.google.com) 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackURL 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getTackURL on class com.mytacks.group10.tagatTack.bean.UpdateBoardBean 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isTackURL on class com.mytacks.group10.tagatTack.bean.UpdateBoardBean 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f, boardName, ParthSBoard) 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@6bfc3f 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'ParthSBoard' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'ParthSBoard' to type 'String' 
+ 2013-12-03 13:13:16,310 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setBoardName(java.lang.String) with value ParthSBoard (class java.lang.String) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae, {tackImage=com.mytacks.group10.tagatTack.model.FileDetails@1a572fc, action=addTackDetails, tackName=NEWFINALTACK, tackURL=https://www.google.com, boardName=ParthSBoard}) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae, tackImage, com.mytacks.group10.tagatTack.model.FileDetails@1a572fc) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackImage 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setTackImage(com.mytacks.group10.tagatTack.model.FileDetails) with value com.mytacks.group10.tagatTack.model.FileDetails@1a572fc (class com.mytacks.group10.tagatTack.model.FileDetails) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae, action, addTackDetails) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addTackDetails' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addTackDetails' to type 'String' 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setAction(java.lang.String) with value addTackDetails (class java.lang.String) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae, tackName, NEWFINALTACK) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackName 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'NEWFINALTACK' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'NEWFINALTACK' to type 'String' 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setTackName(java.lang.String) with value NEWFINALTACK (class java.lang.String) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae, tackURL, https://www.google.com) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = tackURL 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'https://www.google.com' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'https://www.google.com' to type 'String' 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setTackURL(java.lang.String) with value https://www.google.com (class java.lang.String) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae, boardName, ParthSBoard) 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@17dc2ae 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'ParthSBoard' to class 'java.lang.String' 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'ParthSBoard' to type 'String' 
+ 2013-12-03 13:13:16,311 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setBoardName(java.lang.String) with value ParthSBoard (class java.lang.String) 
+ 2013-12-03 14:02:29,081 INFO  com.mytacks.group10.tagatTack.dao.UserDAO  - Updated. 
+ 2013-12-03 14:04:22,896 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  - Setting default value: false 
+ 2013-12-03 14:04:22,896 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  - Converting 'Boolean' value 'false' to type 'Boolean' 
+ 2013-12-03 14:04:22,896 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  -     No conversion required, value is already a Boolean 
+ 2013-12-03 14:04:22,902 DEBUG org.apache.commons.beanutils.converters.ByteConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,902 DEBUG org.apache.commons.beanutils.converters.ByteConverter  - Converting 'Integer' value '0' to type 'Byte' 
+ 2013-12-03 14:04:22,902 DEBUG org.apache.commons.beanutils.converters.ByteConverter  -     Converted to Byte value '0' 
+ 2013-12-03 14:04:22,904 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  - Setting default value:   
+ 2013-12-03 14:04:22,904 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  - Converting 'Character' value ' ' to type 'Character' 
+ 2013-12-03 14:04:22,904 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  -     No conversion required, value is already a Character 
+ 2013-12-03 14:04:22,906 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,906 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  - Converting 'Integer' value '0' to type 'Double' 
+ 2013-12-03 14:04:22,907 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  -     Converted to Double value '0.0' 
+ 2013-12-03 14:04:22,908 DEBUG org.apache.commons.beanutils.converters.FloatConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,908 DEBUG org.apache.commons.beanutils.converters.FloatConverter  - Converting 'Integer' value '0' to type 'Float' 
+ 2013-12-03 14:04:22,908 DEBUG org.apache.commons.beanutils.converters.FloatConverter  -     Converted to Float value '0.0' 
+ 2013-12-03 14:04:22,909 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,909 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  - Converting 'Integer' value '0' to type 'Integer' 
+ 2013-12-03 14:04:22,909 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  -     No conversion required, value is already a Integer 
+ 2013-12-03 14:04:22,910 DEBUG org.apache.commons.beanutils.converters.LongConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,910 DEBUG org.apache.commons.beanutils.converters.LongConverter  - Converting 'Integer' value '0' to type 'Long' 
+ 2013-12-03 14:04:22,910 DEBUG org.apache.commons.beanutils.converters.LongConverter  -     Converted to Long value '0' 
+ 2013-12-03 14:04:22,911 DEBUG org.apache.commons.beanutils.converters.ShortConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,911 DEBUG org.apache.commons.beanutils.converters.ShortConverter  - Converting 'Integer' value '0' to type 'Short' 
+ 2013-12-03 14:04:22,911 DEBUG org.apache.commons.beanutils.converters.ShortConverter  -     Converted to Short value '0' 
+ 2013-12-03 14:04:22,913 DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter  - Setting default value: 0.0 
+ 2013-12-03 14:04:22,913 DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter  - Converting 'BigDecimal' value '0.0' to type 'BigDecimal' 
+ 2013-12-03 14:04:22,913 DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter  -     No conversion required, value is already a BigDecimal 
+ 2013-12-03 14:04:22,914 DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,914 DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter  - Converting 'BigInteger' value '0' to type 'BigInteger' 
+ 2013-12-03 14:04:22,914 DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter  -     No conversion required, value is already a BigInteger 
+ 2013-12-03 14:04:22,914 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  - Setting default value: false 
+ 2013-12-03 14:04:22,914 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  - Converting 'Boolean' value 'false' to type 'Boolean' 
+ 2013-12-03 14:04:22,914 DEBUG org.apache.commons.beanutils.converters.BooleanConverter  -     No conversion required, value is already a Boolean 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.ByteConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.ByteConverter  - Converting 'Integer' value '0' to type 'Byte' 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.ByteConverter  -     Converted to Byte value '0' 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  - Setting default value:   
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  - Converting 'Character' value ' ' to type 'Character' 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.CharacterConverter  -     No conversion required, value is already a Character 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  - Converting 'Integer' value '0' to type 'Double' 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.DoubleConverter  -     Converted to Double value '0.0' 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.FloatConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.FloatConverter  - Converting 'Integer' value '0' to type 'Float' 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.FloatConverter  -     Converted to Float value '0.0' 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  - Converting 'Integer' value '0' to type 'Integer' 
+ 2013-12-03 14:04:22,915 DEBUG org.apache.commons.beanutils.converters.IntegerConverter  -     No conversion required, value is already a Integer 
+ 2013-12-03 14:04:22,916 DEBUG org.apache.commons.beanutils.converters.LongConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,916 DEBUG org.apache.commons.beanutils.converters.LongConverter  - Converting 'Integer' value '0' to type 'Long' 
+ 2013-12-03 14:04:22,916 DEBUG org.apache.commons.beanutils.converters.LongConverter  -     Converted to Long value '0' 
+ 2013-12-03 14:04:22,916 DEBUG org.apache.commons.beanutils.converters.ShortConverter  - Setting default value: 0 
+ 2013-12-03 14:04:22,916 DEBUG org.apache.commons.beanutils.converters.ShortConverter  - Converting 'Integer' value '0' to type 'Short' 
+ 2013-12-03 14:04:22,916 DEBUG org.apache.commons.beanutils.converters.ShortConverter  -     Converted to Short value '0' 
+ 2013-12-03 14:04:22,917 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Setting default value:  
+ 2013-12-03 14:04:22,917 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value '' to type 'String' 
+ 2013-12-03 14:04:22,929 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Z@18f4f91 
+ 2013-12-03 14:04:22,929 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'boolean[]' value '[Z@18f4f91' to type 'boolean[]' 
+ 2013-12-03 14:04:22,929 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a boolean[] 
+ 2013-12-03 14:04:22,929 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [B@1b0c5b3 
+ 2013-12-03 14:04:22,929 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'byte[]' value '[B@1b0c5b3' to type 'byte[]' 
+ 2013-12-03 14:04:22,929 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a byte[] 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [C@8372d1 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'char[]' value '[C@8372d1' to type 'char[]' 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a char[] 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [D@1e706fd 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'double[]' value '[D@1e706fd' to type 'double[]' 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a double[] 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [F@7bf0ec 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'float[]' value '[F@7bf0ec' to type 'float[]' 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a float[] 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [I@1061e68 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'int[]' value '[I@1061e68' to type 'int[]' 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a int[] 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [J@b65b17 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'long[]' value '[J@b65b17' to type 'long[]' 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a long[] 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [S@166432 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'short[]' value '[S@166432' to type 'short[]' 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a short[] 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.math.BigDecimal;@c10b6 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@c10b6' to type 'BigDecimal[]' 
+ 2013-12-03 14:04:22,930 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a BigDecimal[] 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.math.BigInteger;@1212f0f 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@1212f0f' to type 'BigInteger[]' 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a BigInteger[] 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Boolean;@be1b0d 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@be1b0d' to type 'Boolean[]' 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Boolean[] 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Byte;@1a38051 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Byte[]' value '[Ljava.lang.Byte;@1a38051' to type 'Byte[]' 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Byte[] 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Character;@7e366c 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Character[]' value '[Ljava.lang.Character;@7e366c' to type 'Character[]' 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Character[] 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Double;@1427fe2 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Double[]' value '[Ljava.lang.Double;@1427fe2' to type 'Double[]' 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Double[] 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Float;@d7680f 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Float[]' value '[Ljava.lang.Float;@d7680f' to type 'Float[]' 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Float[] 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Integer;@606b6f 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Integer[]' value '[Ljava.lang.Integer;@606b6f' to type 'Integer[]' 
+ 2013-12-03 14:04:22,931 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Integer[] 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Long;@e4c79c 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Long[]' value '[Ljava.lang.Long;@e4c79c' to type 'Long[]' 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Long[] 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Short;@1b23bbb 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Short[]' value '[Ljava.lang.Short;@1b23bbb' to type 'Short[]' 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Short[] 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.String;@63359c 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'String[]' value '[Ljava.lang.String;@63359c' to type 'String[]' 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a String[] 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.lang.Class;@154b4c3 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Class[]' value '[Ljava.lang.Class;@154b4c3' to type 'Class[]' 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Class[] 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.util.Date;@b34e1a 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Date[]' value '[Ljava.util.Date;@b34e1a' to type 'Date[]' 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Date[] 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.util.Calendar;@6d1fa2 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'Calendar[]' value '[Ljava.util.Calendar;@6d1fa2' to type 'Calendar[]' 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a Calendar[] 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.io.File;@43db3a 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'java.io.File[]' value '[Ljava.io.File;@43db3a' to type 'java.io.File[]' 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a java.io.File[] 
+ 2013-12-03 14:04:22,932 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Date;@17911f4 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@17911f4' to type 'java.sql.Date[]' 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Date[] 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Time;@11d84e6 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@11d84e6' to type 'java.sql.Time[]' 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Time[] 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.sql.Timestamp;@13e1e64 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@13e1e64' to type 'java.sql.Timestamp[]' 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a java.sql.Timestamp[] 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Setting default value: [Ljava.net.URL;@18aa056 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  - Converting 'java.net.URL[]' value '[Ljava.net.URL;@18aa056' to type 'java.net.URL[]' 
+ 2013-12-03 14:04:22,933 DEBUG org.apache.commons.beanutils.converters.ArrayConverter  -     No conversion required, value is already a java.net.URL[] 
+ 2013-12-03 14:04:22,946 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.BoardBean@a584e8, {categoryName=FirstCategory, action=addBoardDetails, boardName=DemoTrialBoard, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@b8b75f}) 
+ 2013-12-03 14:04:22,946 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@a584e8, categoryName, FirstCategory) 
+ 2013-12-03 14:04:22,946 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@a584e8 
+ 2013-12-03 14:04:22,946 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 14:04:22,950 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'FirstCategory' to class 'java.lang.String' 
+ 2013-12-03 14:04:22,950 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:04:22,950 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'FirstCategory' to type 'String' 
+ 2013-12-03 14:04:22,953 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setCategoryName(java.lang.String) with value FirstCategory (class java.lang.String) 
+ 2013-12-03 14:04:22,953 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@a584e8, action, addBoardDetails) 
+ 2013-12-03 14:04:22,953 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@a584e8 
+ 2013-12-03 14:04:22,953 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 14:04:22,953 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 14:04:22,953 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:04:22,953 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addBoardDetails' to type 'String' 
+ 2013-12-03 14:04:22,953 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setAction(java.lang.String) with value addBoardDetails (class java.lang.String) 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@a584e8, boardName, DemoTrialBoard) 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@a584e8 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'DemoTrialBoard' to class 'java.lang.String' 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'DemoTrialBoard' to type 'String' 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setBoardName(java.lang.String) with value DemoTrialBoard (class java.lang.String) 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@a584e8, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@b8b75f) 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@a584e8 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setBoardImage(com.mytacks.group10.tagatTack.model.FileDetails) with value com.mytacks.group10.tagatTack.model.FileDetails@b8b75f (class com.mytacks.group10.tagatTack.model.FileDetails) 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.TackBean@19f88de, {categoryName=FirstCategory, action=addBoardDetails, boardName=DemoTrialBoard, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@b8b75f}) 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@19f88de, categoryName, FirstCategory) 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@19f88de 
+ 2013-12-03 14:04:22,954 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 14:04:22,961 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getCategoryName on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isCategoryName on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@19f88de, action, addBoardDetails) 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@19f88de 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addBoardDetails' to type 'String' 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setAction(java.lang.String) with value addBoardDetails (class java.lang.String) 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@19f88de, boardName, DemoTrialBoard) 
+ 2013-12-03 14:04:22,962 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@19f88de 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'DemoTrialBoard' to class 'java.lang.String' 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'DemoTrialBoard' to type 'String' 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setBoardName(java.lang.String) with value DemoTrialBoard (class java.lang.String) 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@19f88de, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@b8b75f) 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@19f88de 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getBoardImage on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isBoardImage on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@1b203f0, {categoryName=FirstCategory, action=addBoardDetails, boardName=DemoTrialBoard, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@b8b75f}) 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@1b203f0, categoryName, FirstCategory) 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@1b203f0 
+ 2013-12-03 14:04:22,963 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'FirstCategory' to class 'java.lang.String' 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'FirstCategory' to type 'String' 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setCategoryName(java.lang.String) with value FirstCategory (class java.lang.String) 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@1b203f0, action, addBoardDetails) 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@1b203f0 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addBoardDetails' to type 'String' 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setAction(java.lang.String) with value addBoardDetails (class java.lang.String) 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@1b203f0, boardName, DemoTrialBoard) 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@1b203f0 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'DemoTrialBoard' to class 'java.lang.String' 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'DemoTrialBoard' to type 'String' 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setBoardName(java.lang.String) with value DemoTrialBoard (class java.lang.String) 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@1b203f0, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@b8b75f) 
+ 2013-12-03 14:04:22,967 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@1b203f0 
+ 2013-12-03 14:04:22,968 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 14:04:22,968 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setBoardImage(com.mytacks.group10.tagatTack.model.FileDetails) with value com.mytacks.group10.tagatTack.model.FileDetails@b8b75f (class com.mytacks.group10.tagatTack.model.FileDetails) 
+ 2013-12-03 14:04:22,968 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.UpdateTackBean@19b719d, {categoryName=FirstCategory, action=addBoardDetails, boardName=DemoTrialBoard, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@b8b75f}) 
+ 2013-12-03 14:04:22,968 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@19b719d, categoryName, FirstCategory) 
+ 2013-12-03 14:04:22,968 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@19b719d 
+ 2013-12-03 14:04:22,968 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 14:04:22,971 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getCategoryName on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:04:22,971 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:04:22,971 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isCategoryName on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:04:22,971 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:04:22,971 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@19b719d, action, addBoardDetails) 
+ 2013-12-03 14:04:22,971 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@19b719d 
+ 2013-12-03 14:04:22,971 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 14:04:22,971 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'addBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'addBoardDetails' to type 'String' 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setAction(java.lang.String) with value addBoardDetails (class java.lang.String) 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@19b719d, boardName, DemoTrialBoard) 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@19b719d 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'DemoTrialBoard' to class 'java.lang.String' 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'DemoTrialBoard' to type 'String' 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setBoardName(java.lang.String) with value DemoTrialBoard (class java.lang.String) 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@19b719d, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@b8b75f) 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@19b719d 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getBoardImage on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isBoardImage on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:04:22,972 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,170 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8, {categoryName=FirstCategory, boardType=PUBLIC, oldBoardName=ParthSBoard, action=updateBoardDetails, boardName=ParthSBoard, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@1dd2b72}) 
+ 2013-12-03 14:05:38,170 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8, categoryName, FirstCategory) 
+ 2013-12-03 14:05:38,170 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8 
+ 2013-12-03 14:05:38,170 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 14:05:38,171 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'FirstCategory' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,171 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,171 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'FirstCategory' to type 'String' 
+ 2013-12-03 14:05:38,171 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setCategoryName(java.lang.String) with value FirstCategory (class java.lang.String) 
+ 2013-12-03 14:05:38,171 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8, boardType, PUBLIC) 
+ 2013-12-03 14:05:38,171 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8 
+ 2013-12-03 14:05:38,171 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardType 
+ 2013-12-03 14:05:38,171 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getBoardType on class com.mytacks.group10.tagatTack.bean.BoardBean 
+ 2013-12-03 14:05:38,171 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,171 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isBoardType on class com.mytacks.group10.tagatTack.bean.BoardBean 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8, oldBoardName, ParthSBoard) 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = oldBoardName 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getOldBoardName on class com.mytacks.group10.tagatTack.bean.BoardBean 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isOldBoardName on class com.mytacks.group10.tagatTack.bean.BoardBean 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8, action, updateBoardDetails) 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'updateBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'updateBoardDetails' to type 'String' 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setAction(java.lang.String) with value updateBoardDetails (class java.lang.String) 
+ 2013-12-03 14:05:38,172 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8, boardName, ParthSBoard) 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'ParthSBoard' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'ParthSBoard' to type 'String' 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setBoardName(java.lang.String) with value ParthSBoard (class java.lang.String) 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@1dd2b72) 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.BoardBean@131d9f8 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.BoardBean.setBoardImage(com.mytacks.group10.tagatTack.model.FileDetails) with value com.mytacks.group10.tagatTack.model.FileDetails@1dd2b72 (class com.mytacks.group10.tagatTack.model.FileDetails) 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.TackBean@1e93afb, {categoryName=FirstCategory, boardType=PUBLIC, oldBoardName=ParthSBoard, action=updateBoardDetails, boardName=ParthSBoard, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@1dd2b72}) 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@1e93afb, categoryName, FirstCategory) 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@1e93afb 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 14:05:38,173 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getCategoryName on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isCategoryName on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@1e93afb, boardType, PUBLIC) 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@1e93afb 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardType 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getBoardType on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isBoardType on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@1e93afb, oldBoardName, ParthSBoard) 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@1e93afb 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = oldBoardName 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getOldBoardName on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:05:38,174 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isOldBoardName on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@1e93afb, action, updateBoardDetails) 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@1e93afb 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'updateBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'updateBoardDetails' to type 'String' 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setAction(java.lang.String) with value updateBoardDetails (class java.lang.String) 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@1e93afb, boardName, ParthSBoard) 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@1e93afb 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'ParthSBoard' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'ParthSBoard' to type 'String' 
+ 2013-12-03 14:05:38,175 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.TackBean.setBoardName(java.lang.String) with value ParthSBoard (class java.lang.String) 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.TackBean@1e93afb, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@1dd2b72) 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.TackBean@1e93afb 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getBoardImage on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isBoardImage on class com.mytacks.group10.tagatTack.bean.TackBean 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270, {categoryName=FirstCategory, boardType=PUBLIC, oldBoardName=ParthSBoard, action=updateBoardDetails, boardName=ParthSBoard, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@1dd2b72}) 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270, categoryName, FirstCategory) 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'FirstCategory' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'FirstCategory' to type 'String' 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setCategoryName(java.lang.String) with value FirstCategory (class java.lang.String) 
+ 2013-12-03 14:05:38,176 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270, boardType, PUBLIC) 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardType 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'PUBLIC' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'PUBLIC' to type 'String' 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setBoardType(java.lang.String) with value PUBLIC (class java.lang.String) 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270, oldBoardName, ParthSBoard) 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = oldBoardName 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'ParthSBoard' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'ParthSBoard' to type 'String' 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setOldBoardName(java.lang.String) with value ParthSBoard (class java.lang.String) 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270, action, updateBoardDetails) 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'updateBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,177 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'updateBoardDetails' to type 'String' 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setAction(java.lang.String) with value updateBoardDetails (class java.lang.String) 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270, boardName, ParthSBoard) 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'ParthSBoard' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'ParthSBoard' to type 'String' 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setBoardName(java.lang.String) with value ParthSBoard (class java.lang.String) 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@1dd2b72) 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateBoardBean@11f5270 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateBoardBean.setBoardImage(com.mytacks.group10.tagatTack.model.FileDetails) with value com.mytacks.group10.tagatTack.model.FileDetails@1dd2b72 (class com.mytacks.group10.tagatTack.model.FileDetails) 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.BeanUtils  - BeanUtils.populate(com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843, {categoryName=FirstCategory, boardType=PUBLIC, oldBoardName=ParthSBoard, action=updateBoardDetails, boardName=ParthSBoard, boardImage=com.mytacks.group10.tagatTack.model.FileDetails@1dd2b72}) 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843, categoryName, FirstCategory) 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843 
+ 2013-12-03 14:05:38,178 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = categoryName 
+ 2013-12-03 14:05:38,179 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getCategoryName on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:05:38,179 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,179 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isCategoryName on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:05:38,179 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,179 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843, boardType, PUBLIC) 
+ 2013-12-03 14:05:38,179 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843 
+ 2013-12-03 14:05:38,179 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardType 
+ 2013-12-03 14:05:38,179 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getBoardType on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:05:38,179 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isBoardType on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843, oldBoardName, ParthSBoard) 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = oldBoardName 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getOldBoardName on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isOldBoardName on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843, action, updateBoardDetails) 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843 
+ 2013-12-03 14:05:38,180 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = action 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'updateBoardDetails' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'updateBoardDetails' to type 'String' 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setAction(java.lang.String) with value updateBoardDetails (class java.lang.String) 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843, boardName, ParthSBoard) 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardName 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.ConvertUtils  - Convert string 'ParthSBoard' to class 'java.lang.String' 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.ConvertUtils  -   Using converter ConverterFacade[StringConverter[UseDefault=true]] 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.converters.StringConverter  - Converting 'String' value 'ParthSBoard' to type 'String' 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.PropertyUtils  - setSimpleProperty: Invoking method public void com.mytacks.group10.tagatTack.bean.UpdateTackBean.setBoardName(java.lang.String) with value ParthSBoard (class java.lang.String) 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.BeanUtils  -   setProperty(com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843, boardImage, com.mytacks.group10.tagatTack.model.FileDetails@1dd2b72) 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target bean = com.mytacks.group10.tagatTack.bean.UpdateTackBean@15d7843 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.BeanUtils  -     Target name = boardImage 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=getBoardImage on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.MethodUtils  - Matching name=isBoardImage on class com.mytacks.group10.tagatTack.bean.UpdateTackBean 
+ 2013-12-03 14:05:38,181 DEBUG org.apache.commons.beanutils.MethodUtils  - No match found. 
+ 2013-12-03 14:14:35,192 INFO  com.mytacks.group10.tagatTack.dao.UserDAO  - The User Master Flag is:1 
+ 
