@@ -17,7 +17,7 @@
 </tr>
 <tr>
 <td>
-<input type="text" name="UserPwd" id="UserPwd"></input>
+<input type="text" name="Userpswd" id="Userpswd"></input>
 </td>
 </tr>
 <tr>

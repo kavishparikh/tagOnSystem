@@ -1,6 +1,6 @@
 <%@ include file="header.jsp" %>
 <div id="page";>
-<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+<!-- <div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
 		
 			<div id="content">
 				<ul class="sale">

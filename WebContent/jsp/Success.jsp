@@ -16,13 +16,13 @@
 <div id="page";>
 		<div id="header" >
 			<div>
-				<a href="/MyTacks/jsp/Login.jsp" class="logo"><img  src="/MyTacks/images/logo.png" alt=""></a>
+				<a href="/MyTacks/jsp/Login.jsp" class="logo"><img  src="/MyTacks/images/logo.jpg" alt=""></a>
 				
 			</div>
 </div>
 </div>
 <div id="page";">
-		<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+		<!--  <div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
 		<br></br>
 		<br></br>
 		

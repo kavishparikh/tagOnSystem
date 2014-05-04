@@ -16,10 +16,10 @@ function validateFun()
 	var lName= document.getElementById("LastName").value;
 	var genders = document.getElementsByName("gender");
 	var email= document.getElementById("EmailID").value;
-	var pwd= document.getElementById("Password").value;
-	var pwdCnfrm = document.getElementById("ConfirmPassword").value;
+	var pswd= document.getElementById("Password").value;
+	var confirmPassword = document.getElementById("ConfirmPassword").value;
 	
-	var emailRegEx = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+	var validateEmailRegex = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 	var NamRegEx = /^([a-zA-z\s]{1,20})$/;
 	var passWordRegEx = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$/;
 	
@@ -53,22 +53,22 @@ function validateFun()
 		alert("Please enter Email Address.");
 		return false;
 	}
-	if(emailRegEx.test(email) == false)
+	if(validateEmailRegex.test(email) == false)
 	{
 		alert("Please enter correct Email Address.");
 		return false;
 	}
-	if(""==pwd)
+	if(""==pswd)
 	{
 		alert("Please enter Password.");
 		return false;
 	}
-	if(passWordRegEx.test(pwd) == false)
+	if(passWordRegEx.test(pswd) == false)
 	{
 		alert("Password must be at least 4 characters, no more than 8 characters, and must include at least one upper case letter, one lower case letter, and one numeric digit.");
 		return false;
 	}
-	if(pwd != pwdCnfrm)
+	if(pswd != confirmPassword)
 		{
 		alert("The passwords are not matching");
 		return false;
@@ -86,7 +86,7 @@ function validateFun()
 function validateLogin()
 {
 var loginname=document.getElementById("UserID").value;
-var password=document.getElementById("UserPwd").value;
+var password=document.getElementById("Userpswd").value;
 
 if(loginname=="")
 {
@@ -115,7 +115,8 @@ else if(loginname=="" && password=="")
 <div id="page";>
 		<div id="header" >
 			<div>
-				<a href="index.html" class="logo"><img  src="/MyTacks/images/logo.png" alt=""></a>
+				<a href="index.html" class="logo"><img  src="/MyTacks/images/logo.jpg" align="center" alt=""></a>
+				<h1> tagOn</h1>
 				
 			</div>
 		</div>
@@ -128,12 +129,12 @@ else if(loginname=="" && password=="")
 <%String fbURL = "http://www.facebook.com/dialog/oauth?client_id=241581129322350&redirect_uri="+URLEncoder.encode("http://localhost:98/MyTacks/UserServlet?action=FBLogin")+"&scope=email";%>
 		
 		<input type="hidden" name="action" value="signIN"></input>
-				<div style="background-image:url('/MyTacks/images/background.gif');" >
+				<!-- <div style="background-image:url('/MyTacks/images/background.gif');" > -->
 				<div id="loginbox" style="margin-left:600px;">
 			<div>
 				<table>
 					<tr>
-						<td id="loginlabel">
+						<td id="loginlabel">	
 						User Name:
 						
 						</td>
@@ -143,7 +144,7 @@ else if(loginname=="" && password=="")
 					<td id="loginlabel">Password:
 						
 						</td>
-						<td><input type="Password" name="UserPwd" id="UserPwd"></td>
+						<td><input type="Password" name="Userpswd" id="Userpswd"></td>
 					</tr>
 					<tr>
 					
@@ -167,7 +168,7 @@ else if(loginname=="" && password=="")
 		</div>
 	</div>
 	</form>
-				<div style="background-image:url('/MyTacks/images/signupbackground.gif');">
+				<!-- <div style="background-image:url('/MyTacks/images/signupbackground.gif');"> -->
 				<form name="SignUp" method="post" action="/MyTacks/UserServlet" onsubmit="return validateFun();">
 				<input type="hidden" name="action" value="signup"></input>
 				<div id="loginbox">
@@ -178,7 +179,7 @@ else if(loginname=="" && password=="")
 					<tr>
 					
 						<td id="loginlabel"  >
-						FirstName* :
+						*FirstName:
 						
 						</td>
 						
@@ -186,7 +187,7 @@ else if(loginname=="" && password=="")
 					
 					
 						<td id="loginlabel">
-						LastName* :
+						*LastName:
 						
 						</td>
 						<td><input type="text" name="LastName" id="LastName"></td>
@@ -202,7 +203,7 @@ else if(loginname=="" && password=="")
 					</tr>
 					<tr>
 						<td id="loginlabel">
-						Email* :
+						*Email:
 						
 						</td>
 						<td><input type="text" name="EmailID" id="EmailID"></td>
@@ -210,14 +211,14 @@ else if(loginname=="" && password=="")
 					<tr>
 						<td id="loginlabel">
 						
-						Password* :
+						*Password:
 						
 						</td>
 						<td><input type="password" name="Password" id="Password"></td>
 					</tr>
 					<tr>
 						<td id="loginlabel">
-						ConfirmPassword* :
+						*ConfirmPassword:
 						
 						</td>
 						<td><input type="password" name="ConfirmPassword" id="ConfirmPassword"></td>

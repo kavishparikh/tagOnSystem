@@ -455,7 +455,8 @@ public class UserServlet extends HttpServlet {
 			String lastLogin="";
 			boolean flag=false;
 			String userID=request.getParameter("UserID");
-			String pwd=request.getParameter("UserPwd");
+			String pwd=request.getParameter("Userpswd");
+			System.out.print(pwd);
 			userSession=request.getSession(true);
 			userSession.setAttribute("userID", userID);
 			UserMaster userLoginDetails=new UserMaster();
@@ -485,7 +486,7 @@ public class UserServlet extends HttpServlet {
 			else
 			{
 				RequestDispatcher rd=request.getRequestDispatcher("/jsp/Login.jsp");
-				request.setAttribute("error", "Sorry the UserName and Password are Incorrect.");
+				request.setAttribute("error", "Sorry the UserName and Password are Incorrect");
 				rd.forward(request, response);
 			}
 			
@@ -576,7 +577,7 @@ public class UserServlet extends HttpServlet {
 				else
 				{
 					RequestDispatcher rd=request.getRequestDispatcher("/jsp/Success.jsp");
-					request.setAttribute("Message", "Sorry the UserName and Password are Incorrect.");
+					request.setAttribute("Message", "Sorry FB  UserName and Password are Incorrect.");
 					rd.forward(request, response);
 				}
 	            

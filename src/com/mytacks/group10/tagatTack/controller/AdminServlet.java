@@ -17,13 +17,19 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+
+
+
+
+
+
+
+import com.mytacks.group10.tagatTack.bean.BoardBean;
+import com.mytacks.group10.tagatTack.bean.CategoryBean;
 import com.mytacks.group10.tagatTack.manager.AdminManager;
 import com.mytacks.group10.tagatTack.model.BoardMaster;
-import com.mytacks.group10.tagatTack.model.FileDetails;
-import com.mytacks.group10.tagatTack.bean.CategoryBean;
-import com.mytacks.group10.tagatTack.bean.BoardBean;
 import com.mytacks.group10.tagatTack.model.CategoryMaster;
-
+import com.mytacks.group10.tagatTack.model.FileDetails;
 
 import javax.imageio.ImageIO;
 import javax.servlet.RequestDispatcher;
@@ -32,6 +38,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+
+
+
+
+
+
+
+
 
 
 import org.apache.commons.beanutils.BeanUtils;

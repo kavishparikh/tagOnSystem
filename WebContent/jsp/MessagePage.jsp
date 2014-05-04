@@ -24,7 +24,7 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 
 </head>
 <body>
-<%if(request.getSession().getAttribute("userID").equals("parths.303@gmail.com")){ %>
+<%if(request.getSession().getAttribute("userID").equals("abcd@gmail.com")){ %>
 <%@ include file="/jsp/AdminHeader.jsp" %>
 <%}else {%>
 <%@ include file="/jsp/header.jsp" %>
@@ -32,7 +32,7 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 
 <%String message=(String)request.getAttribute("Message"); %>
 <div id="page";">
-		<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+	<!-- 	<div id="body" style="background-image:url('/MyTacks/images/bg.jpg');min-length:389px;"> -->
 		<br></br>
 		<br></br>
 		

@@ -20,6 +20,10 @@ import org.apache.log4j.Logger;
 
 
 
+
+
+
+
 import com.mytacks.group10.tagatTack.model.BoardMaster;
 import com.mytacks.group10.tagatTack.model.CategoryMaster;
 import com.mytacks.group10.tagatTack.model.FileDetails;
@@ -41,8 +45,7 @@ public class UserDAO
 		
 		try 
 		{
-			//System.out.println("SingingUp User");
-			con = DataConnection.getConnection(	);
+			con = DataConnection.getConnection();
 			ps = con.prepareStatement(MyTacksConstants.ADD_USER_DETAILS_QUERY);
 			
 			ps.setString(1, userInfo.getEmailAddress());
@@ -57,7 +60,7 @@ public class UserDAO
 			ps.setString(10, userInfo.getLastLoginTime());
 			
 			int check = ps.executeUpdate();
-			log.info("The User Master Flag is : "+check);
+			log.info("The User Master Flag is:"+check);
 			if(check > 0)
 			{
 				flag = true;
@@ -66,7 +69,6 @@ public class UserDAO
 		catch (SQLException e) 
 		{
 			// TODO Auto-generated catch block
-			System.out.println("Exception caught in UserDAO SignUp");
 			e.printStackTrace();
 		}
 		finally
@@ -103,7 +105,6 @@ public class UserDAO
 		}
 		catch(SQLException e)
 		{
-			System.out.println("Exception caught in UserDAO Activate");
 			e.printStackTrace();
 		}
 		finally
@@ -131,7 +132,9 @@ public class UserDAO
 			ps=con.prepareStatement(MyTacksConstants.CHECK_LOGIN_QUERY);
 			ps.setString(1, userLoginDetails.getUserId());
 			ps.setString(2, userLoginDetails.getUserPassword());
+			System.out.print(ps);
 			ResultSet rs=ps.executeQuery();
+			System.out.print(rs);
 			if(rs.next())
 			{
 				if(rs.getString(9).equals("ACTIVE"))
@@ -139,6 +142,7 @@ public class UserDAO
 					flag=true;
 				}
 				lastLogin = rs.getString("LastLoginTime");
+				System.out.println("last"+lastLogin);
 			}
 			
 			statement = con.prepareStatement(MyTacksConstants.UPDATE_LOGIN_TIME_QUERY);
@@ -160,7 +164,6 @@ public class UserDAO
 		}
 		catch(SQLException e)
 		{
-			System.out.println("Exception caught in UserDAO CheckUserLogin");
 			e.printStackTrace();
 		}
 		finally
@@ -214,7 +217,6 @@ public class UserDAO
 		}
 		catch(SQLException e)
 		{
-			System.out.println("Exception caught in UserDAO FacebookLogin");
 			e.printStackTrace();
 		}
 		finally
@@ -1047,8 +1049,9 @@ public class UserDAO
 		statement.setString(2, userId);
 		
 		int check1 = statement.executeUpdate();
+		System.out.print(check+" "+check1);
 		
-		if(check > 0 && check1 > 0)
+		if(check > 0 /*&& check1 > 0 */)
 		{
 			flag = true;
 		}

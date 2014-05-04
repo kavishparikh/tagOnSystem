@@ -24,7 +24,7 @@
 <%ArrayList<CategoryMaster> listOfCategories=(ArrayList<CategoryMaster>)request.getAttribute("listOfCategories"); %>
 <%ArrayList<BoardMaster> listOfBoards=(ArrayList<BoardMaster>)request.getAttribute("listOfBoards"); %>
 <div id="page";">
-		<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+	<!-- 	<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
 		
 		<form name="changeImage" method="post" action="/MyTacks/UserServlet" enctype="multipart/form-data">
 		<input type="hidden" name="action" value="updateTackDetails"></input>

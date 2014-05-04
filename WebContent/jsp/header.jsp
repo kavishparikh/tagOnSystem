@@ -62,7 +62,7 @@
 <div id="page" style="length:50%;">
 		<div id="header" >
 			<div >
-				<a href="/MyTacks/jsp/Login.jsp" class="logo"><img  src="/MyTacks/images/logo.png" alt=""></a>
+				<a href="/MyTacks/jsp/Login.jsp" class="logo"><img  src="/MyTacks/images/logo.jpg" alt=""></a>
 				<ul class="sddm">
 					<li>
 						<a href="about.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">Boards</a>

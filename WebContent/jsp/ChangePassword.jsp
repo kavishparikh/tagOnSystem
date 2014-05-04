@@ -9,8 +9,8 @@
 	function validateFun()
 		{
 		var OldPassword = document.getElementById("OldPassword").value;
-		var pwd= document.getElementById("Password").value;
-		var pwdCnfrm = document.getElementById("ConfirmPassword").value;
+		var pswd= document.getElementById("Password").value;
+		var confirmPassword = document.getElementById("ConfirmPassword").value;
 		
 		var passWordRegEx = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$/;
 		
@@ -19,17 +19,17 @@
 			alert("Please enter old password.");
 			return false;
 			}
-		if(""==pwd)
+		if(""==pswd)
 		{
 			alert("Please enter New Password.");
 			return false;
 		}
-		if(passWordRegEx.test(pwd) == false)
+		if(passWordRegEx.test(pswd) == false)
 		{
 			alert("Password must be at least 4 characters, no more than 8 characters, and must include at least one upper case letter, one lower case letter, and one numeric digit.");
 			return false;
 		}
-		if(pwd != pwdCnfrm)
+		if(pswd != confirmPassword)
 		{
 			alert("The passwords are not matching");
 			return false;
@@ -46,7 +46,7 @@
 <%@ include file="/jsp/header.jsp" %>
 <%} %>
 <div id="page";>
-<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+<!-- <div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
 			<table>
 					<tr>
 						<td id="loginlabel">

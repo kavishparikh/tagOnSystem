@@ -195,7 +195,7 @@ div#page div#header div ul.navigation li a.active {
 	color:#f41465;
 }
 div#page div#body {
-	width:960px;
+	width:1550px;
 	/**min-height:350px;**/
 	margin:0 auto;
 	overflow:hidden;
@@ -205,7 +205,7 @@ div#page div#body div.featured {
 	font-family:'didact_gothicregular';
 	font-size:16px;
 	color:#f41465;
-	width:960px;
+	width:1550px;
 	height:auto;
 	overflow:hidden;
 }
@@ -217,11 +217,11 @@ div#page div#body div.featured ul {
 }
 div#page div#body div.featured ul li {
 	float:left;
-	width:220px;
+	width:500px;
 	margin:0 10px;
 }
 div#page div#body > div.content {
-	width:470px;
+	width:550px;
 	float:left;
 	margin:0 20px 0 0;
 }
@@ -231,7 +231,7 @@ div#page div#body > div.content ul.about {
 	padding:0;
 }
 div#page div#body > div.content ul.about li {
-	margin:0 0 80px 0;
+	margin:0 0 0 0;
 	width:430px;
 	padding:0 20px 0 10px;
 }

@@ -12,59 +12,59 @@ function validateFun()
 	var lName= document.getElementById("lastName").value;
 	var genders = document.getElementsByName("gender");
 	var email= document.getElementById("emailId").value;
-	var pwd= document.getElementById("passWord").value;
-	var pwdCnfrm = document.getElementById("passWordCnfrm").value;
+	var pswd= document.getElementById("passWord").value;
+	var confirmPassword = document.getElementById("confirmPassword ").value;
 	
-	var emailRegEx = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-	var NamRegEx = /^([a-zA-z\s]{1,20})$/;
+	var validateEmailRegex = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+	//var NamRegEx = /^([a-zA-z\s]{1,20})$/;
 	var passWordRegEx = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$/;
 	
 	if("" == fName)
 	{
-		alert("Please enter First Name.");
+		alert("Enter First Name");
 		return false;
 	}
-	if(NamRegEx.test(fName) == false)
+	/* if(NamRegEx.test(fName) == false)
 	{
-		alert("Please enter correct First Name.");
+		alert("Please enter correct First Name");
 		return false;
-	}
+	} */
 	if(""==lName)
 	{
-		alert("Please enter Last Name.");
+		alert("Enter Last Name.");
 		return false;
 	}
 	if(NamRegEx.test(lName) == false)
 	{
-		alert("Please enter correct Last Name.");
+		alert("Please enter correct Last Name");
 		return false;
 	}
 	if(genders[0].checked == false && genders[1].checked == false)
 		{
-		alert("Please select your gender.");
+		alert("Select your gender");
 		return false;
 		}
 	if(""==email)
 	{
-		alert("Please enter Email Address.");
+		alert("Enter Email Address");
 		return false;
 	}
-	if(emailRegEx.test(email) == false)
+	if(validateEmailRegex.test(email) == false)
 	{
-		alert("Please enter correct Email Address.");
+		alert("Please enter correct Email Address");
 		return false;
 	}
-	if(""==pwd)
+	if(""==pswd)
 	{
-		alert("Please enter Password.");
+		alert("Enter Password");
 		return false;
 	}
-	if(passWordRegEx.test(pwd) == false)
+	if(passWordRegEx.test(pswd) == false)
 	{
 		alert("Password must be at least 4 characters, no more than 8 characters, and must include at least one upper case letter, one lower case letter, and one numeric digit.");
 		return false;
 	}
-	if(pwd != pwdCnfrm)
+	if(pswd != confirmPassword)
 		{
 		alert("The passwords are not matching");
 		return false;
@@ -110,7 +110,7 @@ function validateFun()
 		</tr>
 		<tr>
 			<td><label>Confirm Password:</label></td>
-			<td><input type="password" name="passWordCnfrm" id="passWordCnfrm"></td>
+			<td><input type="password" name="confirmPassword " id="confirmPassword "></td>
 		</tr>
 		<tr>
 			<td><input type="submit" name="Submit" value="Submit"></td>

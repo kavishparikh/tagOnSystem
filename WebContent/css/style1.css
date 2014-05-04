@@ -1,8 +1,8 @@
 @CHARSET "ISO-8859-1";
 #loginlabel{
-	font-family:'didact_gothicregular';
-	font-size:16px;
-	color:#f41465;
+	font-family:'palatino linotype';
+	font-size:24px;
+	color:black;
 }
 #loginbox{
 	
@@ -10,6 +10,13 @@ pedding-left:300px;
 width:300px;
 length:50px;
 
+}
+h1
+{
+text-align: center;
+font-family: Palatino Linotype;
+font-size: 450%;
+font-style: italic;
 }
 
 input[type="text;password"] {

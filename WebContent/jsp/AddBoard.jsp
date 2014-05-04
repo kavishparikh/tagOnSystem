@@ -16,7 +16,7 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Add Board</title>
 <link href="/MyTacks/css/style.css" rel="stylesheet" type="text/css">
 	<link href="/MyTacks/css/style1.css" rel="stylesheet" type="text/css">
 	<link href="/MyTacks/css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css">
@@ -28,8 +28,8 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 <%String message=(String)request.getAttribute("categoryName"); %>
 
 <div id="page";">
-		<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
-		<form name="SignUp" method="post" action="/MyTacks/UserServlet" enctype="multipart/form-data">
+<!-- 		<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">-->		
+<form name="SignUp" method="post" action="/MyTacks/UserServlet" enctype="multipart/form-data">
 				<input type="hidden" name="action" value="addBoardDetails"></input>
 				<input type="hidden" name="categoryName" value=<%=message %>></input>
 			

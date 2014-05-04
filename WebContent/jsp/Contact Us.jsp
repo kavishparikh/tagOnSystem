@@ -15,7 +15,7 @@
 <%@ include file="header.jsp" %>
 <%String message=(String)request.getAttribute("Message"); %>
 <div id="page";">
-		<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+	<!-- 	<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
 		<div>
 		<div><h1 id="loginlabel" style = "font-size:30px" >Contact Us</h1></div>
 		<div>

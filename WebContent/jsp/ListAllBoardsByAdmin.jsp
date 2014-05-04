@@ -51,7 +51,7 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 <%@ include file="AdminHeader.jsp" %>
 <%int count=(Integer)request.getAttribute("totalcount"); %>
 <div id="page";>
-<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+<!-- <div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
 		<%String boardName=""; %>
 		<%String redirectFrom=""; %>
 			<div id="content">

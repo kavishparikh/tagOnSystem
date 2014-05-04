@@ -12,7 +12,7 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 }
 %>	
 <div id="page";>
-<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+<!-- <div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
 			<div class="featured">
 			<%String uId=(String)session.getAttribute("userID"); %>
 			<%=uId %><br>

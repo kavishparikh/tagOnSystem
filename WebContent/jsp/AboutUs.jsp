@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>About Us</title>
 <link href="/MyTacks/css/style.css" rel="stylesheet" type="text/css">
 	<link href="/MyTacks/css/style1.css" rel="stylesheet" type="text/css">
 	<link href="/MyTacks/css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css">
@@ -16,10 +16,19 @@
 <%String message=(String)request.getAttribute("Message"); %>
 
 <div id="page";">
-		<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
-		<div><h1 id="loginlabel" style = "font-size:30px" >Take a tour of our site!! let's get to know each other... </h1></div>
+		<!-- <div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
+		<div><h1 id="loginlabel" style = "font-size:30px" >Hello Everyone! Welcome to tagOn. Share, organize and follow bookmarks that you find interesting </h1>
+		<h2> Team Members:</h2>
+		<h2> Darshit Kuwadia</h2>
+		<h2> Dhrumit Sheth</h2>
+		<h2> Kavish Parikh</h2>
+		<h2> Manushi Doshi</h2>
+		<h2>Nikita Varma</h2>
+		<h2> Preeti Borade</h2>
+		<h2> Rajvi Shah</h2>
+		</div>
 		<div style = "margin-left: 100px; margin-top:50px;">
-	<iframe width="560" height="315" src="//www.youtube.com/embed/Lia0HR_duJU" frameborder="0" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?v=FoPYfJBJW_4"> A tutorial for Pinterest</a>
 		</div>
 		</div>
 		</div>	

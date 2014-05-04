@@ -14,29 +14,29 @@ function validateFun()
 	var email= document.getElementById("EmailID").value;
 	var PhoneNo =  document.getElementById("PhoneNo").value;
 	
-	var emailRegEx = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-	var phoneNoRegEx = /^(?:\([2-9]\d{2}\)\ ?|[2-9]\d{2}(?:\-?|\ ?))[2-9]\d{2}[- ]?\d{4}$/;
+	var validateEmailRegex = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+	var validatePhnoRegex = /^(?:\([2-9]\d{2}\)\ ?|[2-9]\d{2}(?:\-?|\ ?))[2-9]\d{2}[- ]?\d{4}$/;
 	
 	if(""==email)
 	{
-		alert("Please enter Email Address.");
+		alert("Please enter your Email address.");
 		return false;
 	}
-	if(emailRegEx.test(email) == false)
+	if(validateEmailRegex.test(email) == false)
 	{
-		alert("Please enter correct Email Address.");
+		alert("Please enter correct Email address.");
 		return false;
 	}
-	if(pwd != pwdCnfrm)
+	if(pswd != confirmPassword)
 	{
 		alert("The passwords are not matching");
 		return false;
 	}
 	if("" != PhoneNo)
 		{
-			if(phoneNoRegEx.test(PhoneNo) == false)
+			if(validatePhnoRegex.test(PhoneNo) == false)
 				{
-					alert("Please enter correct phone number");
+					alert("Enter correct phone number");
 					return false;
 				}	
 		}
@@ -52,17 +52,17 @@ function validateFun()
 <body>
 <form name="updateProfileForm" id="updateProfileForm" action="/MyTacks/UserServlet" method="post" onsubmit="return validateFun();">
 <input type="hidden" name="action" value="updateProfile">
-<%if(request.getSession().getAttribute("userID").equals("parths.303@gmail.com")){ %>
+<%if(request.getSession().getAttribute("userID").equals("abcd@gmail.com")){ %>
 <%@ include file="/jsp/AdminHeader.jsp" %>
 <%}else {%>
 <%@ include file="/jsp/header.jsp" %>
 <%} %>
 <div id="page";>
-<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
-<%UserMaster viewUserDetails =(UserMaster) request.getAttribute("viewUserDetails"); %>
+<!-- <div id="body" style="background-image:url('/MyTacks/images/bg.jpg');min-length:389px;"> -->
+ <%UserMaster viewUserDetails =(UserMaster) request.getAttribute("viewUserDetails"); %>
 <table>
 					
-					<tr>
+					<%-- <tr>
 					
 						<td id="loginlabel"  >
 						*FirstName:
@@ -99,7 +99,7 @@ function validateFun()
 						<td id="loginlabel">
 						Female<input type="radio" name="gender" id="female" value="female" disabled checked></input></td>
 					</tr>
-					<%} %>
+					<%} %> --%>
 					
 					<tr>
 						<td id="loginlabel">

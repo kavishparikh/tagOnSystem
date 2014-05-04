@@ -9,9 +9,9 @@ public class DataConnection {
 	
 
 	private static final String DRIVER_NAME="com.mysql.jdbc.Driver";
-	private static final String URL = "jdbc:mysql://localhost:3306/MyTacks";
+	private static final String URL = "jdbc:mysql://localhost:3306/pinterest";
 	private static final String USERNAME = "root";
-	private static final String PASSWORD = "root";
+	private static final String PASSWORD = "admin";
 	
 	
 	public static Connection getConnection(){

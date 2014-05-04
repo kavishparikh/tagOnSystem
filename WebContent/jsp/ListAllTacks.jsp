@@ -53,7 +53,7 @@ else
 <%int count=(Integer)request.getAttribute("totalcount"); %>
 
 <div id="page";>
-<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+<!-- <div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
 		<%String tackName=""; %>
 			<div id="content">
 				<ul class="sale">

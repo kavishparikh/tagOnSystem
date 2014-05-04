@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>View Image</title>
 </head>
 <body>
 <%String image2 = (String)request.getAttribute("categoryImage");%>

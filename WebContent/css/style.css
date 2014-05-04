@@ -13,8 +13,13 @@
 body {
 	margin:0;
 	padding:0;
-	background:url("../images/bg-main-top-body.jpg") no-repeat scroll center top;
-	width:100%;
+	background:url("../images/photo6.JPG") no-repeat scroll center top;
+	background-size:1350px 900px;
+	
+	/*width:100%;
+	  max-width: 20px;
+     height: auto;
+    max-height: 190px; */
 
 	background-color:#ffffff;
 }
@@ -29,32 +34,35 @@ img:hover {
 	filter:alpha(opacity=90); /* Needed for IE8 and old versions */
 }
 @font-face {
-	font-family:'didact_gothicregular';
+	/* font-family:'didact_gothicregular';
 	src:url('../fonts/didactgothic-webfont.eot');
 	src:url('../fonts/didactgothic-webfont.eot?#iefix') format('embedded-opentype'),
 	url('../fonts/didactgothic-webfont.woff') format('woff'),
 	url('../fonts/didactgothic-webfont.ttf') format('truetype'),
-	url('../fonts/didactgothic-webfont.svg#didact_gothicregular') format('svg');
+	url('../fonts/didactgothic-webfont.svg#didact_gothicregular') format('svg'); */
+	font-family: 'palatino linotype';
 	font-weight:normal;
 	font-style:normal;
 }
 @font-face {
-	font-family:'anticregular';
+	/* font-family:'anticregular';
 	src:url('../fonts/antic-regular-webfont.eot');
 	src:url('../fonts/antic-regular-webfont.eot?#iefix') format('embedded-opentype'),
 	url('../fonts/antic-regular-webfont.woff') format('woff'),
 	url('../fonts/antic-regular-webfont.ttf') format('truetype'),
-	url('../fonts/antic-regular-webfont.svg#anticregular') format('svg');
+	url('../fonts/antic-regular-webfont.svg#anticregular') format('svg'); */
+	font-family: 'palatino linotype';
 	font-weight:normal;
 	font-style:normal;
 }
 @font-face {
-	font-family:'abelregular';
+	/* font-family:'abelregular';
 	src:url('../fonts/abel-regular-webfont.eot');
 	src:url('../fonts/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
 	url('../fonts/abel-regular-webfont.woff') format('woff'),
 	url('../fonts/abel-regular-webfont.ttf') format('truetype'),
-	url('../fonts/abel-regular-webfont.svg#abelregular') format('svg');
+	url('../fonts/abel-regular-webfont.svg#abelregular') format('svg'); */
+	font-family: 'palatino linotype';
 	font-weight:normal;
 	font-style:normal;
 }
@@ -62,10 +70,10 @@ div#page {
 	width:100%;
 }
 div#page div#header {
-	background:url("../images/bg-header.png") no-repeat scroll center bottom transparent;
+	/*<background:url("../images/bg-header.png") no-repeat scroll center bottom transparent;
 	width:100%;
 	height:140px;
-	margin:0 0 0px 0;
+	margin:0 0 0px 0; */
 }
 div#page div#header div {
 	width:960px;
@@ -75,7 +83,7 @@ div#page div#header div {
 }
 div#page div#header div a.logo {
 	position:absolute;
-	left:400px;
+	
 	top:35px;
 	display:block;
 	z-index:999;
@@ -116,32 +124,35 @@ div#page div#header div ul.sddm li.middle
 }
 
 div#page div#header div ul.navigation li a {
-	font-family:'didact_gothicregular';
+	/* font-family:'didact_gothicregular'; */
+	font-family: 'palatino linotype';
 	font-size:16px;
-	color:#c7bebe;
+	color:000000;
 	text-decoration:none;
 	padding:0 40px;
 }
 div#page div#header div ul.sddm li a
 {	display: block;
 	
-	font-family:'didact_gothicregular';
+	/* font-family:'didact_gothicregular'; */
+	font-family: 'palatino linotype';
 	font-size:16px;
-	color:#f41465;
+	color:000000;
 	text-decoration:underline;
 	padding:0 40px;
 }
 
 div#page div#header div ul.navigation li a:hover {
-	font-family:'didact_gothicregular';
+	/* font-family:'didact_gothicregular'; */
+	font-family: 'palatino linotype';
 	font-size:16px;
-	color:#f41465;
+	color:;
 }
 div#page div#header div ul.sddm li a:hover
 {
 		font-size:16px;
 	color:#FFF;
-	background: #f41465
+	background: #f41465;
 	
 }
 
@@ -575,7 +586,7 @@ div#page div#body div#content div.content ul.blog li span {
 	display:block;
 }
 div#page div#body div#content div.content ul.blog li img {
-	background:url("../images/bg-border-blog.png") repeat-x scroll bottom left transparent;
+	background:url("../images/Penguins.jpg") repeat-x scroll bottom left transparent;
 	margin:0;
 	padding:10px;
 }
@@ -771,9 +782,9 @@ div#page div#body div#content div.section ul li span {
 	text-decoration:none;
 }
 div#page div#footer {
-	width:100%;
+	/*width:100%;
 	height:auto;
-	background:url("../images/bg-footer.png") no-repeat scroll center top transparent;
+	background:url("../images/bg-footer.png") no-repeat scroll center top transparent; */
 }
 div#page div#footer div {
 	width:960px;

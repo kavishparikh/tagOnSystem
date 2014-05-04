@@ -18,7 +18,7 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Update Board</title>
 <link href="/MyTacks/css/style.css" rel="stylesheet" type="text/css">
 	<link href="/MyTacks/css/style1.css" rel="stylesheet" type="text/css">
 	<link href="/MyTacks/css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css">
@@ -31,7 +31,7 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 <%String categoryName=(String)request.getAttribute("categoryName"); %>
 <%ArrayList<CategoryMaster> listOfCategories=(ArrayList<CategoryMaster>)request.getAttribute("listOfCategories"); %>
 <div id="page";">
-		<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+	<!-- 	<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
 		
 		<form name="changeImage" method="post" action="/MyTacks/UserServlet" enctype="multipart/form-data">
 		<input type="hidden" name="action" value="updateBoardDetails"></input>

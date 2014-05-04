@@ -29,7 +29,7 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 <%int count=(Integer)request.getAttribute("totalcount"); %>
 
 <div id="page";>
-<div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;">
+<!-- <div id="body" style="background-image:url('/MyTacks/images/pinkbackground.gif');min-length:389px;"> -->
 		<%String categoryName=""; %>
 			<div id="content">
 				<ul class="sale">

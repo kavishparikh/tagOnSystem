@@ -823,9 +823,9 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #d3d3d3;
-	background: #f41465 url(images/ui-bg_flat_75_f41465_40x100.png) 50% 50% repeat-x;
+	background: #cc6666 url(button.png) 50% 50% repeat-x;
 	font-weight: normal;
-	color: #555555;
+	color: #000000;
 }
 .ui-state-default a,
 .ui-state-default a:link,
