@@ -11,8 +11,8 @@ public class UserMaster {
 	String gender;
 	String emailAddress;
 	String phoneNo;
-	String confirmationCode;
-	String activationStatus;
+	//String confirmationCode;
+	//String activationStatus;
 	String lastLoginTime;
 	
 	
@@ -59,7 +59,7 @@ public class UserMaster {
 		this.phoneNo = phoneNo;
 	}
 	
-	public String getConfirmationCode() {
+	/*public String getConfirmationCode() {
 		return confirmationCode;
 	}
 	public void setConfirmationCode(String confirmationCode) {
@@ -70,7 +70,7 @@ public class UserMaster {
 	}
 	public void setActivationStatus(String activationStatus) {
 		this.activationStatus = activationStatus;
-	}
+	}*/
 	public String getLastLoginTime() {
 		return lastLoginTime;
 	}

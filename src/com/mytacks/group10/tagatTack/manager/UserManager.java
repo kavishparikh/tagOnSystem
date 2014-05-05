@@ -19,11 +19,11 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
-/*Extra Packages
+//Extra Package
 import javax.mail.internet.InternetHeaders;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.AddressException;
-*/
+
 public class UserManager 
 {
 	UserDAO userDAO=new UserDAO();
@@ -34,7 +34,7 @@ public class UserManager
 		
 	boolean flag=false;
 	String uname=userInfo.getUserId();
-	
+	/*
 	final String username="tag.tacks@gmail.com";
 	final String password="tag@tacks@gmail.com";
 	
@@ -75,15 +75,15 @@ public class UserManager
 		
 		userInfo.setConfirmationCode(unicodegen);
 		userInfo.setActivationStatus("INACTIVE");
-		
+		*/
 		flag=userDAO.signUpUser(userInfo);
 			
-		
+	/*	
 	} 
 	catch (MessagingException e) 
 	{
 		throw new RuntimeException(e);
-	}	
+	}	*/
 	return flag;
 	
 	}
@@ -92,7 +92,7 @@ public class UserManager
 	{
 		
 		boolean flag=false;
-		flag=userDAO.activateUser(confirmationCode);
+		flag= userDAO.activateUser(confirmationCode);
 		
 		return flag;
 		
@@ -120,6 +120,7 @@ public class UserManager
 		
 		UserMaster userDetails=new UserMaster();
 		userDetails=userDAO.sendOldPassword(userID);
+		
 		//userpwd=edao.getForgotPassword(uemail);
 		if(userDetails.getUserPassword().length()>1)
 		{
@@ -127,21 +128,22 @@ public class UserManager
 		}
 		
 		//Email Send Code Starts///////////////////////////////////////////////////
-		
-	final String username="tag.tacks@gmail.com";
-	final String password="tag@tacks@gmail.com";
+	
+	final String username="tagon203project@gmail.com";
+	final String password="Tagon203";
 	Properties props = new Properties();
 	props.setProperty("mail.smtp.host", "smtp.gmail.com");
-
+	props.put("mail.smtp.user", username);
+    props.put("mail.smtp.password", password);
 	props.setProperty("mail.smtp.port", "587");
-
+	props.put("mail.smtp.debug", "true");
 	props.setProperty("mail.smtp.auth", "true");
 
 	props.setProperty("mail.smtp.starttls.enable", "true");
-	Session session = Session.getInstance(props,
-			  new javax.mail.Authenticator() {
+	
+	Session session = Session.getInstance(props, new javax.mail.Authenticator() {
 				protected PasswordAuthentication getPasswordAuthentication() {
-					return new PasswordAuthentication(username, password);
+					return new PasswordAuthentication("tagon203project@gmail.com", "");
 				}
 			  });
 			
@@ -149,24 +151,23 @@ public class UserManager
 		
 		
 		MimeMessage message = new MimeMessage(session);
-		message.setFrom(new InternetAddress("tag.tacks@gmail.com"));
-		message.setRecipients(Message.RecipientType.TO,
-			InternetAddress.parse(userDetails.getUserId()));
-		message.setSubject("Testing Subject");
+		message.setFrom(new InternetAddress(username));
+		message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(userDetails.getUserId()));
+		message.setSubject("Forgotten Password");
 		String body=userDetails.getUserPassword();
 		message.setText(body, "UTF-8", "html");
 		
-		Transport.send(message);
-		
+		Transport transport = session.getTransport("smtp");
+		transport.connect("smtp.gmail.com",username,password);
+		Transport.send(message, username, password);
+		transport.close();
 	} catch (MessagingException e) {
 		throw new RuntimeException(e);
 	}
 	//Email Code Ends/////////////////////////////////////////////////////////
 		
 		return flag;
-		
-		
-		
+	
 	}
 	
 	public boolean addBoard(BoardMaster boardMaster,String categoryName,String userID)

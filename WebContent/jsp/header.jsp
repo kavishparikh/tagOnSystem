@@ -62,12 +62,12 @@
 <div id="page" style="length:50%;">
 		<div id="header" >
 			<div >
-				<a href="/MyTacks/jsp/Login.jsp" class="logo"><img  src="/MyTacks/images/logo.jpg" alt=""></a>
+			
 				<ul class="sddm">
 					<li>
 						<a href="about.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">Boards</a>
 						<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-        			<a href="/MyTacks/UserServlet?action=listAllCategories&redirectFrom=addBoard">Create Board</a>
+        			<a href="/MyTacks/UserServlet?action=listAllCategories&redirectFrom=addBoards">Create Board</a>
         			<a href="/MyTacks/UserServlet?action=listAllBoards&redirectFrom=showBoards">Show Board</a>
         			<a href="/MyTacks/UserServlet?action=listAllBoards&redirectFrom=updateBoard">Update Board</a>
         			<a href="/MyTacks/UserServlet?action=listAllBoards&redirectFrom=delteBoard">Delete Board</a>
@@ -90,6 +90,7 @@
 						<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 						<a href="/MyTacks/UserServlet?action=listAllCategories&redirectFrom=showCategories">Show All</a>
 						<a href="/MyTacks/UserServlet?action=listAllCategories&redirectFrom=viewBoards">Boards</a>
+						<a href="/MyTacks/UserServlet?action=listAllCategories&redirectFrom=addBoards">Add Boards</a>
 						<a href="/MyTacks/UserServlet?action=listAllFollowedBoards">Followed</a>
 					</div>
 					</li>

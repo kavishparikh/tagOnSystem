@@ -155,7 +155,9 @@ public class UserServlet extends HttpServlet {
 			BeanUtils.populate(updateBoardBean, map);
 			BeanUtils.populate(updateTackBean, map);
 
+			
 			//******************************* ADD BOARD DETAILS METHOD STARTS ***********************//////////////////////
+			
 			
 			if(boardBean.getAction().equals("addBoardDetails"))
 			{
@@ -598,12 +600,13 @@ public class UserServlet extends HttpServlet {
 		{
 			boolean flag=false;
 			String userID=request.getParameter("UserID");
+			System.out.println(userID);
 			flag=userManager.sendldOldPassword(userID);
 			
 			if(flag==true)
 			{
 				RequestDispatcher rd=request.getRequestDispatcher("/jsp/Success.jsp");
-				request.setAttribute("Message", "The Password has been sent to your registered Email Address Successflyy.");
+				request.setAttribute("Message", "The Password has been sent to your registered Email Address.");
 				rd.forward(request, response);
 			}
 			else
@@ -971,8 +974,9 @@ public class UserServlet extends HttpServlet {
 		/////////////// ****************** GO TO ADD  BOARD PAGE METHOD STARTS ************///////////
 		
 		else if(action.equals("goToAddBoardPage"))
-		{
+		{System.out.println("reached0");
 			String categoryName=request.getParameter("categoryName");
+			System.out.println("reached");
 			RequestDispatcher rd=request.getRequestDispatcher("/jsp/AddBoard.jsp");
 			request.setAttribute("categoryName", categoryName);
 			rd.forward(request, response);

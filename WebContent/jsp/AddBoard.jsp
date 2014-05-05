@@ -24,7 +24,7 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 
 </head>
 <body>
-<%@ include file="header.jsp" %>
+<!-- <%@ include file="header.jsp" %>  -->
 <%String message=(String)request.getAttribute("categoryName"); %>
 
 <div id="page";">
@@ -40,6 +40,9 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 			<div style = "margin-top:-250px; margin-left:150px;padding :30px 30px 30px 30px;">
 			
 			<table align="center">
+			
+								
+					
 					<tr>
 					
 						<td id="loginlabel">
@@ -51,14 +54,14 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 					</tr>
 					<tr>
 						<td id="loginlabel">
-						Board Name
+						Board Name :
 						
 						</td>
 						<td><input type="text" name="boardName" id="boardName"></td>
 						</tr>
 						<tr>
 						<td id="loginlabel">
-						Board Image
+						Board Image : 
 						
 						</td>
 						<td><input type="file" name="boardImage" id="boardImage"></td>
@@ -81,7 +84,7 @@ if(request.getSession()==null || request.getSession().getAttribute("userID")==nu
 		</div>
 		</div>	
 		
-		
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <%@ include file="footerShow.jsp" %>
 
 </body>

@@ -63,8 +63,9 @@ width: 180px;height: 240px;  alt="">
 					<td>
 					
 					<%String redirectFrom=(String)request.getAttribute("RedirectFrom"); %>
-					<%if(redirectFrom.equals("addBoard")){ %>					
+					<%if(redirectFrom.equals("addBoards")){ %>					
 					<input type="hidden" name="action" value="goToAddBoardPage"></input>
+					<input type="hidden" name="RedirectFrom" id="RedirectFrom" value="goToAddBoardPage"></input>
 					<input type="submit" size="40px" name="addBoards" value="Add Board" id="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"></input>
 					<%} %>
 					<%if(redirectFrom.equals("viewBoards")){ %>					

@@ -55,9 +55,9 @@ public class UserDAO
 			ps.setString(5, userInfo.getGender());
 			ps.setString(6, userInfo.getEmailAddress());
 			ps.setString(7, userInfo.getPhoneNo());
-			ps.setString(8, userInfo.getConfirmationCode());
-			ps.setString(9, userInfo.getActivationStatus());
-			ps.setString(10, userInfo.getLastLoginTime());
+			/*ps.setString(8, userInfo.getConfirmationCode());
+			ps.setString(9, userInfo.getActivationStatus());*/
+			ps.setString(8, userInfo.getLastLoginTime());
 			
 			int check = ps.executeUpdate();
 			log.info("The User Master Flag is:"+check);
@@ -137,7 +137,7 @@ public class UserDAO
 			System.out.print(rs);
 			if(rs.next())
 			{
-				if(rs.getString(9).equals("ACTIVE"))
+				if(rs.getString(8).equals("ACTIVE"))
 				{
 					flag=true;
 				}
@@ -240,15 +240,15 @@ public class UserDAO
 			con=DataConnection.getConnection();
 			ps=con.prepareStatement(MyTacksConstants.FORGOT_PASSWORD_QUERY);
 			ps.setString(1, userID);
-			ps.setString(2, "ACTIVE");
+			//ps.setString(2, "ACTIVE");
 			ResultSet rs=ps.executeQuery();
 			if(rs.next())
 			{	
 				userDetails=new UserMaster();
 				userDetails.setUserId(rs.getString(1));
 				userDetails.setUserPassword(rs.getString(2));
-				userDetails.setFirstName(rs.getString(3));
-				userDetails.setLastName(rs.getString(4));
+				//userDetails.setFirstName(rs.getString(3));
+				//userDetails.setLastName(rs.getString(4));
 			}
 			
 		}
